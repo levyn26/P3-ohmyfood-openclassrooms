@@ -1,6 +1,7 @@
 @import "libs/reset.scss";
 @import "libs/font.scss";
 @import "libs/responsive.scss";
+@import "libs/loader.scss";
 
 .header{
   width: 100%;
@@ -128,6 +129,45 @@
     color: #9356DC;
   }
 }
+
+#choisir{
+  animation: apparition 0.8s ease-out;
+}
+
+#composez{
+  animation: apparition 1s ease-out;
+}
+
+#degustez{
+  animation: apparition 1.2s ease-out;
+}
+
+#restaurants-1{
+  animation: apparition 0.8s ease-out;
+}
+
+#restaurants-2{
+  animation: apparition 1s ease-out;
+}
+
+#restaurants-3{
+  animation: apparition 1.2s ease-out;
+}
+#restaurants-4{
+  animation: apparition 1.4s ease-out;
+}
+
+@keyframes apparition {
+  from{
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .fonctionnement-list-card-title{
   color: #000;
