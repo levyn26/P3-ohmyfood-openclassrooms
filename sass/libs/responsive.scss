@@ -1,0 +1,55 @@
+$breakpoint-responsive: 1030px;
+
+@media (min-width: $breakpoint-responsive) {
+  .h-content{
+    height: 240px!important;
+  }
+  .h-content-title{
+    display: block!important;
+  }
+  .h-content-desc{
+    display: block!important;
+  }
+  .h-content-title-mobile{
+    display: none!important;
+  }
+  .h-content-desc-mobile{
+    display: none!important;
+  }
+  .fonctionnement-title{
+    text-align: center!important;
+  }
+  .fonctionnement-card{
+    display: flex;
+    justify-content: center;
+  }
+  .fonctionnement-list-card-2{
+    width: 300px!important;
+  }
+  .fonctionnement-list-card{
+    width: 300px!important;
+    margin-right: 30px;
+  }
+  .restaurants-card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  }
+  .restaurants{
+    height: 430px!important;
+  }
+  .restaurants-title{
+    text-align: center!important;
+  }
+  .footer{
+    height: 120px!important;
+  }
+  .f-menu{
+    display: flex;
+  }
+  .footer-menu{
+    margin-right: 40px!important;
+  }
+}

@@ -1,0 +1,331 @@
+@import "libs/reset.scss";
+@import "libs/font.scss";
+@import "libs/responsive.scss";
+
+.header{
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.logo{
+  display: block;
+  width: 160px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.localisation{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background: #eaeaea;
+  align-items: center;
+  justify-content: center;
+}
+
+.localisation-icon{
+  width: 12.15px;
+  height: 17.35px;
+  color: #000;
+}
+
+.localisation-text{
+  margin-left: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #000;
+}
+
+.h-content{
+  width: 100%;
+  height: 288px;
+  background: #f6f6f6;
+}
+
+.h-content-title{
+  display: none;
+  padding-top: 45px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+}
+
+.h-content-desc{
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #4d4d4d;
+}
+.h-content-title-mobile{
+  display: block;
+  padding-top: 45px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #000;
+}
+
+.h-content-desc-mobile{
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.cta{
+  display: block;
+  margin : auto;
+  width: 224px;
+  height: 51px;
+  border-radius: 25.5px;
+  background: linear-gradient(#e976da 0%, #9356dc 100%);
+  &:hover{
+    opacity: .8;
+  }
+}
+
+.cta-text{
+  height: 50px;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.fonctionnement{
+  padding: 45px 20px;
+}
+
+.fonctionnement-title{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.fonctionnement-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  color: #7e7e7e;
+  &:hover{
+    color: #9356DC;
+  }
+}
+
+.fonctionnement-list-card-title{
+  color: #000;
+}
+
+.fonctionnement-list-number{
+  position: relative;
+  border-radius: 100%;
+  width: 26px;
+  height: 26px;
+  background: #9356dc;
+}
+
+.fonctionnement-list-number-text{
+  position: absolute;
+  padding-top: 4px;
+  padding-left: 8px;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  vertical-align: center;
+}
+
+
+.fonctionnement-list-card{
+  width: 100%;
+  height: 72px;
+  border-radius: 19px;
+  background: #f6f6f6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 30px;
+  margin-left: -12px;
+  transition-duration: .5s;
+  cursor: default;
+  &:hover{
+    background: #f5edff;
+  }
+}
+
+.fonctionnement-list-card-icon{
+  width: 12.83px;
+  padding-right: 35px;
+  padding-left: 5px;
+}
+
+
+.restaurants{
+  width: auto;
+  height: 1228px;
+  background: #f6f6f6;
+  padding: 45px 20px;
+}
+
+.restaurants-title{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.restaurants-card{
+  position: relative;
+  width: auto;
+  height: 252px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin: 20px 0;
+  transition-duration: .5s;
+  &:hover{
+    transform: scale(0.92);
+  }
+}
+
+.restaurants-main-card-img{
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 174px;
+  border-radius: 15px 15px 0 0;
+}
+
+.restaurants-card-title{
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000;
+  margin-top: 12px !important;
+}
+
+.restaurants-card-baseline{
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #000;
+}
+
+.restaurants-card-title, .restaurants-card-baseline{
+  margin: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+
+.restaurants-card-icon{
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  bottom: 32px;
+  fill: transparent;
+  stroke: #000;
+}
+
+.restaurants-card-icon-2{
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  bottom: 32px;
+}
+
+path#Icon_awesome-heart{
+  fill: transparent;
+  stroke: #000;
+  &:hover{
+    stroke: none;
+    fill:url(#linear-gradient);
+  }
+  &:focus{
+    stroke: none;
+    fill:url(#linear-gradient);
+  }
+}
+
+
+.icon{
+  display: inline-block;
+  width: 22.7px;
+  height: 19.8px;
+  background-size: cover;
+}
+
+.restaurants-card-new{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 81px;
+  height: 29px;
+  border-radius: 2px;
+  background: #99e2d0;
+  filter: drop-shadow(0 3px 10px rgba(0, 0, 0, 0.16));
+}
+
+.restaurants-card-new-title{
+  font-weight: normal;
+  font-size: 14px;
+  text-align: left;
+  color: #3f8866;
+  padding: 7px 12px;
+}
+
+.footer{
+  width: 100%;
+  height: 197px;
+  background: #353535;
+  padding: 25px 20px;
+}
+
+.footer-logo img{
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+.footer-menu{
+  display: flex;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.footer-text{
+  margin-left: 15px;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+#partenaire{
+  margin-left: 8px;
+}
+
+#mentions{
+  margin-left: 0;
+}
+
+#contact{
+  margin-left: 0;
+}
