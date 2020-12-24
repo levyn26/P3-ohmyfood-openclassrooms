@@ -386,6 +386,16 @@ path#Icon_awesome-heart{
 
 /* Menu a la française */
 
+.logoresize{
+  margin-left: -10px;
+}
+
+#header-fixe{
+  position: fixed;
+  z-index: 9999;
+  background: #fff;
+}
+
 .backtohome{
   width: 18px;
   height: 17px;
@@ -411,7 +421,7 @@ path#Icon_awesome-heart{
   border-radius: 45px 45px 0 0;
   background: #f6f6f6;
   margin-top: -55px;
-  position: absolute;
+  position: relative;
   padding: 35px 20px;
 }
 
@@ -509,6 +519,9 @@ path#Icon_awesome-heart{
 .animation-3{
   animation: apparition 2s ease-out;
 }
+.animation-4{
+  animation: apparition 2.5s ease-out;
+}
 
 .entrees-card-text{
   white-space: nowrap;
@@ -561,6 +574,6 @@ path#Icon_awesome-heart{
   margin-top: 50px;
 }
 
-#footer-menu{
-  margin-top: 140vh;
+#menu-lanote{
+  height: 1245px;
 }
