@@ -1,55 +1,95 @@
-$breakpoint-responsive: 1030px;
+$breakpoint-desktop: 1030px;
 
-@media (min-width: $breakpoint-responsive) {
-  .h-content{
-    height: 240px!important;
+@media (min-width: $breakpoint-desktop) {
+  /* DESKTOP HOME */
+  .h-content {
+    height: 240px !important;
   }
-  .h-content-title{
-    display: block!important;
+  .h-content-title {
+    display: block !important;
   }
-  .h-content-desc{
-    display: block!important;
+  .h-content-desc {
+    display: block !important;
   }
-  .h-content-title-mobile{
-    display: none!important;
+  .h-content-title-mobile {
+    display: none !important;
   }
-  .h-content-desc-mobile{
-    display: none!important;
+  .h-content-desc-mobile {
+    display: none !important;
   }
-  .fonctionnement-title{
-    text-align: center!important;
+  .fonctionnement-title {
+    text-align: center !important;
   }
-  .fonctionnement-card{
+  .fonctionnement-card {
     display: flex;
     justify-content: center;
   }
-  .fonctionnement-list-card-2{
-    width: 300px!important;
+  .fonctionnement-list-card-2 {
+    width: 300px !important;
   }
-  .fonctionnement-list-card{
-    width: 300px!important;
+  .fonctionnement-list-card {
+    width: 300px !important;
     margin-right: 30px;
   }
-  .restaurants-card-grid{
+  .restaurants-card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     row-gap: 2rem;
     column-gap: 2rem;
   }
-  .restaurants{
-    height: 430px!important;
+  .restaurants {
+    height: 430px !important;
   }
-  .restaurants-title{
-    text-align: center!important;
+  .title-desktop {
+    display: block !important;
   }
-  .footer{
-    height: 120px!important;
+  .restaurants-title {
+    text-align: center !important;
   }
-  .f-menu{
+  .footer {
+    height: 120px !important;
+  }
+  .f-menu {
     display: flex;
   }
-  .footer-menu{
-    margin-right: 40px!important;
+  .footer-menu {
+    margin-right: 40px !important;
+  }
+
+  /* DESKTOP à la française */
+
+  #hero-img-mobile {
+    display: none !important;
+  }
+
+  #hero-img-desktop {
+    display: block !important;
+  }
+
+  .grid-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0 55px;
+  }
+  .plats {
+    margin: 20px 0!important;
+  }
+  .desserts{
+    margin: 20px 0!important;
+  }
+
+  .title{
+    display: block!important;
+  }
+  .menu-title{
+    text-align: center;
+  }
+  .menu{
+    height: 600px!important;
+  }
+  #footer-menu{
+    margin-top: 59vh!important;
   }
 }
