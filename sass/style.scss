@@ -310,6 +310,48 @@ path#Icon_awesome-heart{
   }
 }
 
+path#Icon_awesome-heart-2{
+  fill: transparent;
+  stroke: #000;
+  &:hover{
+    stroke: none;
+    fill:url(#linear-gradient-2);
+    animation: heart-icon .8s forwards ease-out;
+  }
+  &:focus{
+    stroke: none;
+    fill:url(#linear-gradient-2);
+  }
+}
+
+path#Icon_awesome-heart-3{
+  fill: transparent;
+  stroke: #000;
+  &:hover{
+    stroke: none;
+    fill:url(#linear-gradient-3);
+    animation: heart-icon .8s forwards ease-out;
+  }
+  &:focus{
+    stroke: none;
+    fill:url(#linear-gradient-3);
+  }
+}
+
+path#Icon_awesome-heart-4{
+  fill: transparent;
+  stroke: #000;
+  &:hover{
+    stroke: none;
+    fill:url(#linear-gradient-4);
+    animation: heart-icon .8s forwards ease-out;
+  }
+  &:focus{
+    stroke: none;
+    fill:url(#linear-gradient-4);
+  }
+}
+
 @keyframes heart-icon {
   0%{
     opacity: 0;

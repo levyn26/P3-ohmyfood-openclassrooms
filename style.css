@@ -529,6 +529,48 @@ path#Icon_awesome-heart:focus {
   fill: url(#linear-gradient);
 }
 
+path#Icon_awesome-heart-2 {
+  fill: transparent;
+  stroke: #000;
+}
+path#Icon_awesome-heart-2:hover {
+  stroke: none;
+  fill: url(#linear-gradient-2);
+  animation: heart-icon 0.8s forwards ease-out;
+}
+path#Icon_awesome-heart-2:focus {
+  stroke: none;
+  fill: url(#linear-gradient-2);
+}
+
+path#Icon_awesome-heart-3 {
+  fill: transparent;
+  stroke: #000;
+}
+path#Icon_awesome-heart-3:hover {
+  stroke: none;
+  fill: url(#linear-gradient-3);
+  animation: heart-icon 0.8s forwards ease-out;
+}
+path#Icon_awesome-heart-3:focus {
+  stroke: none;
+  fill: url(#linear-gradient-3);
+}
+
+path#Icon_awesome-heart-4 {
+  fill: transparent;
+  stroke: #000;
+}
+path#Icon_awesome-heart-4:hover {
+  stroke: none;
+  fill: url(#linear-gradient-4);
+  animation: heart-icon 0.8s forwards ease-out;
+}
+path#Icon_awesome-heart-4:focus {
+  stroke: none;
+  fill: url(#linear-gradient-4);
+}
+
 @keyframes heart-icon {
   0% {
     opacity: 0;
