@@ -602,6 +602,10 @@ path#Icon_awesome-heart:focus {
 }
 
 /* Menu a la française */
+.hero {
+  padding-top: 60px;
+}
+
 .logoresize {
   margin-left: -10px;
 }
